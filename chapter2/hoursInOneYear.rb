@@ -1,0 +1,1 @@
+puts "There are #{24*365} hours in a year, and #{24*366} in a leap year!"

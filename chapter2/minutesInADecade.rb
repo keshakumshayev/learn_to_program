@@ -1,0 +1,1 @@
+puts "There are #{(60*24*365*8)+(60*24*366*2)} minutes in a decade with two leap years, and #{(60*24*365*7)+(60*24*366*3)} minutes in a decade with three leap years!"
