@@ -1,10 +1,10 @@
 Dir.chdir('/Users/kesha/Downloads')
 
-song_names = Dir['*.wav']
+song_names = Dir['*.wav'].shuffle
 
 puts("Generating playlist.")
 
-playlist = File.open('playlist.m3u', 'w')
+playlist = File.open('shuffled_playlist.m3u', 'w')
 
 song_names.each do |x|
 	print '.'
